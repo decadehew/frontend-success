@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>事件流</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="bubble-phase">
+            <h1>事件捕獲</h1>
+            <div id="first">
+                <div id="second" >
+                    <div id="third" >
+                        <button id="button">事件捕獲</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="capture-phase">
+            <h1>事件冒泡</h1>
+            <div id="first">
+                <div id="second" >
+                    <div id="third" >
+                        <button id="button">事件冒泡</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-agent">
+            <h1>事件委託</h1>
+            <ul class="all">
+                <li>我是</li>
+                <li>丘梓陽</li>
+                <li>前端成才</li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
