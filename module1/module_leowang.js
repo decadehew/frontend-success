@@ -12,11 +12,18 @@
         }
     }
 
-    jquery.fn.modal = function(data){
+    jQuery.fn.modal = function(data){
+        $('body').on('click','.modal-cancel',function(){
+            $('.modal').modal('close');
+        })
         switch(data){
             case 'open':
+                $('#modal-mask').addClass('show');
+                $('.modal').addClass('show');
                 break;
             case 'close':
+                $('#modal-mask').removeClass('show');
+                $('.modal').removeClass('show');
                 break;
         }
     }
