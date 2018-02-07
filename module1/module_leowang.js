@@ -11,4 +11,13 @@
                 break;
         }
     }
+
+    jquery.fn.modal = function(data){
+        switch(data){
+            case 'open':
+                break;
+            case 'close':
+                break;
+        }
+    }
 })(jQuery)
