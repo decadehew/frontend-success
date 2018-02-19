@@ -1,5 +1,53 @@
+/*off canvas*/
 .L-side{
-    width: 300px;
+    width: 0;
     background-color: rgba(0,0,0,0.4);
-    float: left;
+    transition:.5s;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.L-side ul{
+    margin: 40px 0;
+}
+.L-side .side{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.L-side .side a{
+    text-decoration: none;
+    color:#000;
+    padding: 0 30px;
+}
+.L-side .side:hover{
+    background-color: #fefefe;
+}
+
+/*header*/
+.sideNav{
+    position: fixed;
+    top:0;
+    background-color: #333333;
+    height: 40px;
+    width: 100%; 
+    color:white;
+    transition:  .5s;
+    
+}
+.sideNav .clickSide{
+    top:0;
+    background-color: #333333;
+    height: 40px;
+    width: 40px; 
+    color:white;
+    cursor: pointer;
+}
+.sideNav .clickSide::after{
+    content:'';
+    position: absolute;
+    top:10px;
+    left: 10px;
+    height: 3px;
+    width: 20px;
+    background: #fefefe;
+    box-shadow: 0 7px 0 #fefefe,0 14px 0 #fefefe;
 }
