@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tabs</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="tab"></div>
+    
+    <script src="./tabs.js"></script>
+    
+    <script>
+        var tabs = new components.tabs({
+            insertId:'tab',
+        },4, ['測試1','測試2','測試3','測試4'],
+        ['我是內容1','我是內容2','我是內容3','我是內容4',]
+        )
+        tabs.show();
+    </script>
+</body>
+</html>
