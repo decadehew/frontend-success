@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAI;EACA,eAAe,EAAE,IAAI;EACrB,OAAE;IACC,OAAO,EAAE,WAAW;IACpB,SAAS,EAAC,IAAI;IACd,MAAM,EAAE,cAAc;IACtB,OAAO,EAAE,CAAC;EAEb,UAAK;IACF,OAAO,EAAE,WAAW;IACpB,OAAO,EAAC,IAAI;;AAGnB,aAAa;EACT,aAAa,EAAC,iBAAiB",
+"sources": ["../../../../../../../%EF%BD%8C%EF%BD%85%EF%BD%8F%EF%BD%97%EF%BD%81%EF%BD%8E%EF%BD%87/Documents/GitHub/frontend-success/module1/tabs/leowang/style.scss"],
+"names": [],
+"file": "style.css"
+}
