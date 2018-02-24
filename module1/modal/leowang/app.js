@@ -1,5 +1,6 @@
-$('body').on('click','.modalOpen',function(){
-    console.log('ss')
+$('body').on('click','.modalOpen',function(e){
+    console.log(e.target);
+    console.log(this);
     $('.modal').modal('open');
 })
 

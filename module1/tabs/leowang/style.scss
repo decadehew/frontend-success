@@ -1,0 +1,17 @@
+@charset "utf-8";
+#tab{
+    text-decoration: none;    
+    ul{
+       display: inline-flex;
+       flex-wrap:wrap; 
+       border: 1px solid #eee;
+       padding: 0;
+    }
+    .tabs{
+       display: inline-flex;
+       padding:20px;
+    }
+}
+.tabs.actives{
+    border-bottom:2px solid #D2691E;
+}
