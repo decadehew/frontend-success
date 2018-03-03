@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style.css" rel="stylesheet"/>
+    <title>accordions</title>
+</head>
+<body>
+    <ul id="accordion-js">
+        <li class="accordion" >
+            <div class="title">標題</div>
+            <div class="content">內容</div>
+        </li>
+        <li class="accordion">
+                <div class="title">標題</div>
+            <div class="content">內容</div>
+        </li>
+        <li class="accordion">
+                <div class="title">標題</div>
+            <div class="content">內容</div>
+        </li>
+    </ul>
+    <script src="./accordions.js"></script>
+    <script>
+        let accordion = new Accordion(document.getElementById('accordion-js'));
+        accordion.init();
+    </script>
+</body>
+</html>

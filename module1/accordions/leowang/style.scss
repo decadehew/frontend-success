@@ -1,0 +1,23 @@
+#accordion-js{
+    width: 300px;
+    margin: 0 auto;
+    li{
+        list-style-type: none;
+        .title{
+            border: 2px solid #eee;
+            padding: 20px 10px;
+        }
+        .content{
+            border: 2px solid #eee;
+            border-top:none;
+            padding: 10px;
+            min-height: 200px;
+            display: none;
+        }
+    }
+    .accordion.active {
+        .content{
+            display: block !important;
+        }
+    }
+}
