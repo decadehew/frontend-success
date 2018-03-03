@@ -1,0 +1,18 @@
+#accordion-js {
+  width: 300px;
+  margin: 0 auto; }
+  #accordion-js li {
+    list-style-type: none; }
+    #accordion-js li .title {
+      border: 2px solid #eee;
+      padding: 20px 10px; }
+    #accordion-js li .content {
+      border: 2px solid #eee;
+      border-top: none;
+      padding: 10px;
+      min-height: 200px;
+      display: none; }
+  #accordion-js .accordion.active .content {
+    display: block !important; }
+
+/*# sourceMappingURL=style.css.map */
